@@ -7,7 +7,6 @@ module.exports = function(sd) {
 	}
 	Pgen.find({}, function(err, docs){
 		sd._pages = docs;
-
 	});
 	sd._middleware.push(function(next, opt) {
 		var req = opt.req;
