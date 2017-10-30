@@ -4,12 +4,7 @@
 		"name": "Basic",
 		"src": "router.js"
 	}],
+	"solr": true,
 	"dependencies": {
-	},
-	"crud": {
-		"updates": [{
-			"keys": ["name","description"],
-			"name": ""
-		}]
 	}
 }
